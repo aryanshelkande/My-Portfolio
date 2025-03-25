@@ -1,0 +1,88 @@
+
+/* General Styling */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0f1e;
+    color: #e0e0e0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #1e3a8a, #9333ea);
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Profile Image */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+/* Typing Effect */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.typing-text {
+    color: #facc15;
+}
+
+.cursor {
+    display: inline-block;
+    width: 5px;
+    background: #facc15;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Sections */
+.about, .education, .achievements, .projects, .contact {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about:hover, .education:hover, .achievements:hover, .projects:hover, .contact:hover {
+    transform: scale(1.02);
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    box-shadow: 0 -4px 10px rgba(255, 255, 255, 0.2);
+}
